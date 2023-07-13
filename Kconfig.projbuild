@@ -379,6 +379,11 @@ config ARDUINO_SELECTIVE_Update
     depends on ARDUINO_SELECTIVE_COMPILATION
     default y
 
+config ARDUINO_SELECTIVE_Up
+    bool "Enable Update"
+    depends on ARDUINO_SELECTIVE_COMPILATION
+    default y
+
 config ARDUINO_SELECTIVE_WebServer
     bool "Enable WebServer"
     depends on ARDUINO_SELECTIVE_COMPILATION
